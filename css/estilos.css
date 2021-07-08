@@ -1,0 +1,487 @@
+/* line 1, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__conetenedor--general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* line 8, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__contenedor {
+  width: 350px;
+  margin: 40px 0 0 20px;
+  display: block;
+}
+
+/* line 13, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__txtContacto {
+  display: inline;
+  width: 400px;
+  font-size: 15px;
+  color: #313131;
+  padding: 0;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.5px;
+}
+
+/* line 23, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__txtContacto--titulo {
+  display: block;
+  font-size: 50px;
+  color: #313131;
+  padding: 0;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.5px;
+}
+
+/* line 31, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__formulario--caja {
+  height: 80px;
+  width: 295px;
+  resize: none;
+  text-decoration: none;
+  text-align: start;
+  font-size: 13px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: dimgray;
+}
+
+/* line 42, ../curso/tercera entrega/scss/_contacto.scss */
+h3 {
+  margin: 4px 0 0 0;
+  color: dimgray;
+  font-size: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-variation-settings: 'wght' 800;
+  position: relative;
+  font-weight: 100;
+}
+
+/* line 51, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__formulario {
+  display: block;
+  margin-top: 0em;
+}
+
+/* line 56, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__formulario--txtForm {
+  display: block;
+  font-size: 15px;
+  color: #313131;
+  padding: 0;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.5px;
+}
+
+/* line 64, ../curso/tercera entrega/scss/_contacto.scss */
+.input {
+  border: 1px, solid;
+  color: dimgray;
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  width: 300px;
+}
+
+/* line 72, ../curso/tercera entrega/scss/_contacto.scss */
+.contacto__boton {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Staatliches', cursive;
+  display: inline-block;
+  width: 90pt;
+  height: 25pt;
+  color: floralwhite;
+  padding: 5px 15px;
+  margin: 10px 5px 5px 0px;
+  cursor: pointer;
+  background: #000000;
+  border: 0 none;
+}
+
+/* line 1, ../curso/tercera entrega/scss/_proyecTerminados.scss */
+.terminados {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  padding-left: 200px;
+  background-color: #e1e1e1;
+}
+
+/* line 9, ../curso/tercera entrega/scss/_proyecTerminados.scss */
+.terminados__contenedor {
+  display: flex;
+  background-color: #FFF;
+  height: 300px;
+  width: 80%;
+  display: flex;
+}
+
+/* line 17, ../curso/tercera entrega/scss/_proyecTerminados.scss */
+.terminadosImg {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 110px;
+  align-content: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../media/terminado.jpg);
+}
+
+/* line 30, ../curso/tercera entrega/scss/_proyecTerminados.scss */
+.terminados__botton {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Staatliches', cursive;
+  display: inline-block;
+  width: 90pt;
+  height: 25pt;
+  color: black;
+  padding: 5px 15px;
+  margin: 10px 5px 5px 0px;
+  cursor: pointer;
+  background: #FFF;
+  border: 0 none;
+}
+
+/* line 45, ../curso/tercera entrega/scss/_proyecTerminados.scss */
+.terminados__botton:hover {
+  color: #FFF !important;
+  background-color: black;
+}
+
+/* line 1, ../curso/tercera entrega/scss/_skills.scss */
+.skills__contenedor--general {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+/* line 7, ../curso/tercera entrega/scss/_skills.scss */
+.skills__contenedor {
+  display: grid;
+  grid-template-areas: "skll icn";
+}
+
+/* line 12, ../curso/tercera entrega/scss/_skills.scss */
+.skill {
+  grid-area: skll;
+  font-size: 6rem;
+  color: #007bff;
+}
+
+/* line 19, ../curso/tercera entrega/scss/_skills.scss */
+.icon {
+  grid-area: icn;
+  background-image: url(../media/icons/html5.png);
+  width: 267px;
+  height: 267px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0 10px 50px;
+}
+
+/* line 29, ../curso/tercera entrega/scss/_skills.scss */
+.skills__contenedor2 {
+  display: grid;
+  grid-template-areas: "ics2 skll2";
+}
+
+/* line 34, ../curso/tercera entrega/scss/_skills.scss */
+.skill2 {
+  grid-area: skll2;
+  font-size: 6rem;
+  color: #8EC5FC;
+}
+
+/* line 41, ../curso/tercera entrega/scss/_skills.scss */
+.icon2 {
+  grid-area: icn2;
+  background-image: url(../media/icons/css3.png);
+  width: 267px;
+  height: 267px;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0 10px 80px;
+}
+
+/* line 50, ../curso/tercera entrega/scss/_skills.scss */
+.skills__contenedor3 {
+  display: grid;
+  grid-template-areas: "ics3 skll3";
+}
+
+/* line 55, ../curso/tercera entrega/scss/_skills.scss */
+.skill3 {
+  grid-area: skll3;
+  font-size: 6rem;
+  color: #8EC5FC;
+}
+
+/* line 62, ../curso/tercera entrega/scss/_skills.scss */
+.icon3 {
+  grid-area: icn3;
+  background-image: url(../media/icons/sass.png);
+  width: 267px;
+  height: 267px;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0 10px 80px;
+}
+
+/* line 72, ../curso/tercera entrega/scss/_skills.scss */
+.skills__contenedor4 {
+  display: grid;
+  grid-template-areas: "ics4 skll4";
+}
+
+/* line 77, ../curso/tercera entrega/scss/_skills.scss */
+.skill4 {
+  grid-area: skll4;
+  font-size: 6rem;
+  color: #8EC5FC;
+}
+
+/* line 84, ../curso/tercera entrega/scss/_skills.scss */
+.icon4 {
+  grid-area: icn4;
+  background-image: url(../media/icons/btp.png);
+  width: 267px;
+  height: 267px;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0 10px 80px;
+}
+
+/* line 5, ../curso/tercera entrega/scss/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../curso/tercera entrega/scss/estilos.scss */
+.cuerpo {
+  background-color: #e1e1e1;
+}
+
+/* line 12, ../curso/tercera entrega/scss/estilos.scss */
+a {
+  color: black !important;
+}
+
+/* line 16, ../curso/tercera entrega/scss/estilos.scss */
+.banner {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  height: 100px;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+/* line 25, ../curso/tercera entrega/scss/estilos.scss */
+.banner__botons {
+  display: inline-block;
+  margin-left: 110px;
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 0.5em 0.5em;
+  background-color: #FFF;
+  width: 120px;
+  transition: all 500ms ease-in-out;
+  text-align: center;
+  position: relative;
+}
+
+/* line 39, ../curso/tercera entrega/scss/estilos.scss */
+.imgFondo {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../media/imgFondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #323232;
+  background-blend-mode: soft-light;
+  border-bottom: 3rem solid #e1e1e1;
+}
+
+/* line 50, ../curso/tercera entrega/scss/estilos.scss */
+.imgText {
+  width: 100%;
+  font-size: 3rem;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* line 60, ../curso/tercera entrega/scss/estilos.scss */
+.header {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* line 65, ../curso/tercera entrega/scss/estilos.scss */
+.img {
+  min-height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-size: scale;
+  background-position: center;
+}
+
+/* line 74, ../curso/tercera entrega/scss/estilos.scss */
+.grilla {
+  display: grid;
+  grid-template-areas: "txt img";
+}
+
+/* line 79, ../curso/tercera entrega/scss/estilos.scss */
+.text1 {
+  text-align: center;
+  justify-content: center;
+  grid-area: txt;
+  width: 630px;
+  height: 500px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #FFF;
+}
+
+/* line 90, ../curso/tercera entrega/scss/estilos.scss */
+.text1 .titulo1 {
+  font-size: 2.4rem;
+  padding-top: 100px;
+}
+
+/* line 97, ../curso/tercera entrega/scss/estilos.scss */
+.img1 {
+  grid-area: img;
+  background-image: url(../media/imgGrid1.jpg);
+  width: 650px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 108, ../curso/tercera entrega/scss/estilos.scss */
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  justify-items: center;
+}
+
+/* line 117, ../curso/tercera entrega/scss/estilos.scss */
+.habilidades {
+  list-style-position: inside;
+}
+
+/* line 122, ../curso/tercera entrega/scss/estilos.scss */
+.proyectos {
+  background-color: grey;
+  font-family: Arial;
+  font-size: 22px;
+  color: yellow;
+  text-align: center;
+}
+
+/* line 130, ../curso/tercera entrega/scss/estilos.scss */
+.footer {
+  background-color: #FC00FF;
+  background-image: linear-gradient(90deg, #FC00FF 1%, #00DBDE 100%);
+  height: 100px;
+  width: 100%;
+  position: relative;
+  border-top: 2px solid #e1e1e1;
+}
+
+/* line 139, ../curso/tercera entrega/scss/estilos.scss */
+.footer__botons {
+  color: #000;
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 0.5em 0.5em;
+  width: 100px;
+  transition: all 500ms ease-in-out;
+  text-align: center;
+  position: relative;
+}
+
+/* line 152, ../curso/tercera entrega/scss/estilos.scss */
+.imgInicio {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../media/in.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #282828;
+  background-blend-mode: soft-light;
+  align-items: center;
+  justify-content: center;
+  flex-direction: Column;
+}
+
+/* line 168, ../curso/tercera entrega/scss/estilos.scss */
+.hola {
+  font-size: 6rem;
+  color: white;
+}
+
+/* line 173, ../curso/tercera entrega/scss/estilos.scss */
+.txtInicio {
+  font-size: 2rem;
+  color: white;
+}
+
+/* line 179, ../curso/tercera entrega/scss/estilos.scss */
+.banner__botons:hover {
+  background-color: #434546;
+  transform: scale(1.1);
+}
+
+@media all and (max-width: 1188px) {
+  /* line 187, ../curso/tercera entrega/scss/estilos.scss */
+  .banner__botons {
+    width: 75px;
+    font-size: 14px;
+    padding: 0.3em 0.3em;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  /* line 197, ../curso/tercera entrega/scss/estilos.scss */
+  .banner__botons {
+    width: 75px;
+    font-size: 14px;
+    padding: 0.3em 0.3em;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  /* line 208, ../curso/tercera entrega/scss/estilos.scss */
+  .banner__botons {
+    width: 40px;
+    font-size: 8px;
+    padding: 0.2em 0.2em;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

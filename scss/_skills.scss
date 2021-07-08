@@ -1,0 +1,92 @@
+.skills__contenedor--general{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.skills__contenedor{
+    display:grid;
+    grid-template-areas:
+    "skll icn"
+}
+.skill{
+    grid-area: skll;
+    font-size: 6rem;
+    color: #007bff;
+
+}
+
+.icon{
+    grid-area: icn;
+    background-image: url(../media/icons/html5.png);
+    width: 267px;
+    height: 267px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0 10px 50px;
+}
+
+.skills__contenedor2{
+    display:grid;
+    grid-template-areas:
+    "ics2 skll2"
+}
+.skill2{
+    grid-area: skll2;
+    font-size: 6rem;
+    color: #8EC5FC;
+
+}
+
+.icon2{
+    grid-area: icn2;
+    background-image: url(../media/icons/css3.png);
+    width: 267px;
+    height: 267px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 10px 80px;
+}
+.skills__contenedor3{
+    display:grid;
+    grid-template-areas:
+    "ics3 skll3"
+}
+.skill3{
+    grid-area: skll3;
+    font-size: 6rem;
+    color: #8EC5FC;
+
+}
+
+.icon3{
+    grid-area: icn3;
+    background-image: url(../media/icons/sass.png);
+    width: 267px;
+    height: 267px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 10px 80px;
+}
+
+.skills__contenedor4{
+    display:grid;
+    grid-template-areas:
+    "ics4 skll4"
+}
+.skill4{
+    grid-area: skll4;
+    font-size: 6rem;
+    color: #8EC5FC;
+
+}
+
+.icon4{
+    grid-area: icn4;
+    background-image: url(../media/icons/btp.png);
+    width: 267px;
+    height: 267px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0 10px 80px;
+}

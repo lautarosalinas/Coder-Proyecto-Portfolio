@@ -1,0 +1,49 @@
+.terminados{
+	display:flex;
+	height: 800px;
+	width: 100%;
+	padding-left: 200px;
+	background-color: #e1e1e1;
+
+}
+.terminados__contenedor{
+	display: flex;
+	background-color: #FFF;
+	height: 300px; 
+	width: 80%;
+	display:flex;
+}
+
+.terminadosImg{
+	display: flex;
+	width: 600px;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 110px;
+	align-content: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(../media/terminado.jpg)
+}
+
+.terminados__botton{
+	font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Staatliches', cursive;
+    display: inline-block;
+    width: 90pt;
+    height: 25pt;
+    color: black;
+    padding: 5px 15px;
+    margin: 10px 5px 5px 0px;
+    cursor: pointer;
+    background: #FFF;
+    border: 0 none;
+
+}
+.terminados__botton:hover{
+	color: #FFF !important;
+	background-color: black;
+}
+
